@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>My Tweets</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Tweet</button>
+</form>
+<ul>
+    {% for tweet in tweets %}
+        <li>{{ tweet.content }} - {{ tweet.created_at }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

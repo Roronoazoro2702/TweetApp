@@ -1,6 +1,6 @@
 # TweetApp
 
-TweetApp is a simple Django-based social media platform for sharing and interacting with tweets. Built for learning purposes, it demonstrates the power of Django for web development.
+TweetApp is a simple Django-based social media platform for sharing and interacting with tweets. Built for learning purposes, it demonstrates the power of Django .
 
 ## Features
 
